@@ -21,7 +21,7 @@ const Signin = (props) => {
   const loginUser = async () => {
     try {
       await auth().signInWithEmailAndPassword(usermail, userpass);
-      props.navigation.navigate('Dummy');
+      props.navigation.navigate('DrawerMenu');
       AsyncStorage.setItem('@USER_ID', auth().currentUser.uid);
     } catch (error) {
       console.log(error);

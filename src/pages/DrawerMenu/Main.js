@@ -4,7 +4,7 @@ import { SafeAreaView, Text, Button } from "react-native";
 import auth from '@react-native-firebase/auth';
 import AsyncStorage from '@react-native-community/async-storage';
 
-const Dummy = props => {
+const Main = props => {
      const signOut = () => {
         auth().signOut()
         AsyncStorage.removeItem('@USER_ID')
@@ -12,12 +12,11 @@ const Dummy = props => {
     }
     return(
         <SafeAreaView>
-            <Text>Dummy Page</Text>
+            <Text>Main Page</Text>
             <Button
             title='Signout'
             onPress={signOut}/>
         </SafeAreaView>
     )
 }
-
-export {Dummy}
+export {Main}
