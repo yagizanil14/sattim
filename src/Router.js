@@ -6,6 +6,7 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 
 import { Signin, Signup} from './pages/Sign'
 import { Main, Profile, Offers } from "./pages/DrawerMenu";
+import {AddProductsQuickly} from './pages/AddProducts'
 
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -26,6 +27,7 @@ function Router() {
                 <Stack.Screen name="Signin" component={Signin} options={{ headerShown: false }} />
                 <Stack.Screen name="Signup" component={Signup} options={{ headerShown: false }} />
                 <Stack.Screen name="DrawerMenu" component={DrawerMenu} options={{ headerShown: false, gestureEnabled: false}} />
+                <Stack.Screen name="AddProductsQuickly" component={AddProductsQuickly} options={{ headerShown: false}} />
             </Stack.Navigator>
         </NavigationContainer>
     );

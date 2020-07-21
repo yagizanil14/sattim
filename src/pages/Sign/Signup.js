@@ -21,7 +21,8 @@ const Signup = (props) => {
   const setPassRep = (text) => setPasswordRep(text);
 
   const signUser = async () => {
-    if (userpass === userpassRep) {
+    if(usermail.length && userpass.length > 6){
+       if (userpass === userpassRep) {
       try {
         await auth().createUserWithEmailAndPassword(usermail, userpass);
 
@@ -31,6 +32,8 @@ const Signup = (props) => {
         console.log(error)
       }
     } else Alert.alert('MyApp', 'Şifreler Uyuşmuyor');
+    }else Alert.alert('MyApp', 'Şifreniz yada Email adresiniz 6 karakterden az olamaz')
+   
   };
 
   return (
