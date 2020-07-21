@@ -19,7 +19,8 @@ const Signin = (props) => {
   setPass = (text) => setPassword(text);
 
   const loginUser = async () => {
-    try {
+    if(usermail.length && userpass.length > 6){
+      try {
       await auth().signInWithEmailAndPassword(usermail, userpass);
       props.navigation.navigate('DrawerMenu');
       AsyncStorage.setItem('@USER_ID', auth().currentUser.uid);
@@ -27,6 +28,7 @@ const Signin = (props) => {
       console.log(error);
       Alert.alert('MyApp', 'Bir hata oluştu.');
     }
+    }else Alert.alert('MyApp', 'Şifreniz yada Email adresiniz 6 karakterden az olamaz')
   };
 
   return (
