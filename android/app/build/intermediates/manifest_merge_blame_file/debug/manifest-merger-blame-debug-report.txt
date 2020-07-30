@@ -9,233 +9,261 @@
 9        android:targetSdkVersion="29" />
 10
 11    <uses-permission android:name="android.permission.CAMERA" />
-11-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\debug\AndroidManifest.xml:5:5-65
-11-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\debug\AndroidManifest.xml:5:22-62
+11-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:5:5-65
+11-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:5:22-62
 12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-12-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\debug\AndroidManifest.xml:6:5-80
-12-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\debug\AndroidManifest.xml:6:22-78
+12-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:8:1-76
+12-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:8:18-74
 13    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-13-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\debug\AndroidManifest.xml:7:5-77
-13-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\debug\AndroidManifest.xml:7:22-75
+13-->C:\Users\Sony\Desktop\sattim\android\app\src\debug\AndroidManifest.xml:7:5-77
+13-->C:\Users\Sony\Desktop\sattim\android\app\src\debug\AndroidManifest.xml:7:22-75
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\main\AndroidManifest.xml:4:5-67
-14-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\main\AndroidManifest.xml:4:22-64
+14-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:4:5-67
+14-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:4:22-64
 15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-15-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\main\AndroidManifest.xml:5:5-70
-15-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\main\AndroidManifest.xml:5:22-68
-16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-16-->[com.facebook.flipper:flipper:0.37.0] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\43c8a7b2644749dbdcc223a0d2272409\flipper-0.37.0\AndroidManifest.xml:16:5-76
-16-->[com.facebook.flipper:flipper:0.37.0] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\43c8a7b2644749dbdcc223a0d2272409\flipper-0.37.0\AndroidManifest.xml:16:22-73
-17    <uses-permission android:name="android.permission.WAKE_LOCK" />
-17-->[:react-native-firebase_auth] D:\Kodluyoruz\KodluyoruzBitirme\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
-17-->[:react-native-firebase_auth] D:\Kodluyoruz\KodluyoruzBitirme\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-65
-18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-18-->[:react-native-firebase_auth] D:\Kodluyoruz\KodluyoruzBitirme\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
-18-->[:react-native-firebase_auth] D:\Kodluyoruz\KodluyoruzBitirme\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-76
-19
-20    <uses-feature
-20-->[:react-native-camera] D:\Kodluyoruz\KodluyoruzBitirme\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:11:5-13:36
-21        android:name="android.hardware.camera"
-21-->[:react-native-camera] D:\Kodluyoruz\KodluyoruzBitirme\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:12:9-47
-22        android:required="false" />
-22-->[:react-native-camera] D:\Kodluyoruz\KodluyoruzBitirme\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:13:9-33
-23    <uses-feature
-23-->[:react-native-camera] D:\Kodluyoruz\KodluyoruzBitirme\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:14:5-16:36
-24        android:name="android.hardware.camera.autofocus"
-24-->[:react-native-camera] D:\Kodluyoruz\KodluyoruzBitirme\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:15:9-57
-25        android:required="false" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-25-->[:react-native-camera] D:\Kodluyoruz\KodluyoruzBitirme\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:16:9-33
-26    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-26-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:26:5-82
-26-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:26:22-79
-27    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-27-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:26:5-110
-27-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:26:22-107
-28
-29    <application
-29-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\main\AndroidManifest.xml:7:5-26:19
-30        android:name="com.kodluyoruzbitirme.MainApplication"
-30-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\main\AndroidManifest.xml:8:7-38
-31        android:allowBackup="false"
-31-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\main\AndroidManifest.xml:12:7-34
-32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-32-->[androidx.core:core:1.1.0] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\4c112ea1673c74046d79ce05bc8542bd\core-1.1.0\AndroidManifest.xml:24:18-86
-33        android:debuggable="true"
-34        android:icon="@mipmap/ic_launcher"
-34-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\main\AndroidManifest.xml:10:7-41
-35        android:label="@string/app_name"
-35-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\main\AndroidManifest.xml:9:7-39
-36        android:roundIcon="@mipmap/ic_launcher_round"
-36-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\main\AndroidManifest.xml:11:7-52
-37        android:theme="@style/AppTheme"
-37-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\main\AndroidManifest.xml:13:7-38
-38        android:usesCleartextTraffic="true" >
-38-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\debug\AndroidManifest.xml:9:18-53
-39        <activity
-39-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\main\AndroidManifest.xml:14:7-24:18
-40            android:name="com.kodluyoruzbitirme.MainActivity"
-40-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\main\AndroidManifest.xml:15:9-37
-41            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-41-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\main\AndroidManifest.xml:17:9-86
-42            android:label="@string/app_name"
-42-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\main\AndroidManifest.xml:16:9-41
-43            android:launchMode="singleTask"
-43-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\main\AndroidManifest.xml:18:9-40
-44            android:windowSoftInputMode="adjustResize" >
-44-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\main\AndroidManifest.xml:19:9-51
-45            <intent-filter>
-45-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\main\AndroidManifest.xml:20:9-23:25
-46                <action android:name="android.intent.action.MAIN" />
-46-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\main\AndroidManifest.xml:21:13-65
-46-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\main\AndroidManifest.xml:21:21-62
-47
-48                <category android:name="android.intent.category.LAUNCHER" />
-48-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\main\AndroidManifest.xml:22:13-73
-48-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\main\AndroidManifest.xml:22:23-70
-49            </intent-filter>
-50        </activity>
-51        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-51-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\main\AndroidManifest.xml:25:7-84
-51-->D:\Kodluyoruz\KodluyoruzBitirme\android\app\src\main\AndroidManifest.xml:25:17-81
-52
-53        <provider
-53-->[:react-native-image-picker] D:\Kodluyoruz\KodluyoruzBitirme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-18:20
-54            android:name="com.imagepicker.FileProvider"
-54-->[:react-native-image-picker] D:\Kodluyoruz\KodluyoruzBitirme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-56
-55            android:authorities="com.kodluyoruzbitirme.provider"
-55-->[:react-native-image-picker] D:\Kodluyoruz\KodluyoruzBitirme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-60
-56            android:exported="false"
-56-->[:react-native-image-picker] D:\Kodluyoruz\KodluyoruzBitirme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
-57            android:grantUriPermissions="true" >
-57-->[:react-native-image-picker] D:\Kodluyoruz\KodluyoruzBitirme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-47
-58            <meta-data
-58-->[:react-native-image-picker] D:\Kodluyoruz\KodluyoruzBitirme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-17:58
-59                android:name="android.support.FILE_PROVIDER_PATHS"
-59-->[:react-native-image-picker] D:\Kodluyoruz\KodluyoruzBitirme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-67
-60                android:resource="@xml/provider_paths" />
-60-->[:react-native-image-picker] D:\Kodluyoruz\KodluyoruzBitirme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-55
-61        </provider>
-62
-63        <activity
-63-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:24:9-31:50
-64            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-64-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:25:13-85
-65            android:excludeFromRecents="true"
-65-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:26:13-46
-66            android:exported="true"
-66-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:27:13-36
-67            android:launchMode="singleTask"
-67-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:28:13-44
-68            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-68-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:29:13-102
-69            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-69-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:30:13-72
-70
-71        <service
-71-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:33:9-39:19
-72            android:name="com.google.firebase.components.ComponentDiscoveryService"
-72-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:34:13-84
-73            android:directBootAware="true"
-73-->[com.google.firebase:firebase-common:19.3.0] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\2e29f70b431c6d8e8f3ae08965970064\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
-74            android:exported="false" >
-74-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:35:13-37
-75            <meta-data
-75-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:36:13-38:85
-76                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-76-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:37:17-109
-77                android:value="com.google.firebase.components.ComponentRegistrar" />
-77-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:38:17-82
-78            <meta-data
-78-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\c39d31f25deaa0e83183fa6589a1d5e1\play-services-measurement-api-17.4.3\AndroidManifest.xml:30:13-32:85
-79                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-79-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\c39d31f25deaa0e83183fa6589a1d5e1\play-services-measurement-api-17.4.3\AndroidManifest.xml:31:17-139
-80                android:value="com.google.firebase.components.ComponentRegistrar" />
-80-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\c39d31f25deaa0e83183fa6589a1d5e1\play-services-measurement-api-17.4.3\AndroidManifest.xml:32:17-82
-81            <meta-data
-81-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:32:13-34:85
-82                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-82-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:33:17-96
-83                android:value="com.google.firebase.components.ComponentRegistrar" />
-83-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:34:17-82
-84            <meta-data
-84-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\e22b229244c6b494b646c1a7e0407183\firebase-installations-16.2.1\AndroidManifest.xml:17:13-19:85
-85                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-85-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\e22b229244c6b494b646c1a7e0407183\firebase-installations-16.2.1\AndroidManifest.xml:18:17-127
-86                android:value="com.google.firebase.components.ComponentRegistrar" />
-86-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\e22b229244c6b494b646c1a7e0407183\firebase-installations-16.2.1\AndroidManifest.xml:19:17-82
-87        </service>
-88
-89        <receiver
-89-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:37:9-44:20
-90            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-90-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:38:13-78
-91            android:exported="true"
-91-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:39:13-36
-92            android:permission="com.google.android.c2dm.permission.SEND" >
-92-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:40:13-73
-93            <intent-filter>
-93-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:41:13-43:29
-94                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-94-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:42:17-81
-94-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:42:25-78
-95            </intent-filter>
-96        </receiver>
-97
-98        <activity
-98-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\a9db7ca102a61e71756cc841696a0623\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-99            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-99-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\a9db7ca102a61e71756cc841696a0623\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-100            android:exported="false"
-100-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\a9db7ca102a61e71756cc841696a0623\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-101            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-101-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\a9db7ca102a61e71756cc841696a0623\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-102
-103        <provider
-103-->[com.google.firebase:firebase-common:19.3.0] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\2e29f70b431c6d8e8f3ae08965970064\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
-104            android:name="com.google.firebase.provider.FirebaseInitProvider"
-104-->[com.google.firebase:firebase-common:19.3.0] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\2e29f70b431c6d8e8f3ae08965970064\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
-105            android:authorities="com.kodluyoruzbitirme.firebaseinitprovider"
-105-->[com.google.firebase:firebase-common:19.3.0] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\2e29f70b431c6d8e8f3ae08965970064\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
-106            android:exported="false"
-106-->[com.google.firebase:firebase-common:19.3.0] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\2e29f70b431c6d8e8f3ae08965970064\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
-107            android:initOrder="100" />
-107-->[com.google.firebase:firebase-common:19.3.0] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\2e29f70b431c6d8e8f3ae08965970064\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
-108
-109        <receiver
-109-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:29:9-33:20
-110            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-110-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:30:13-85
-111            android:enabled="true"
-111-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:31:13-35
-112            android:exported="false" >
-112-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:32:13-37
-113        </receiver>
-114
-115        <service
-115-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:35:9-38:40
-116            android:name="com.google.android.gms.measurement.AppMeasurementService"
-116-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:36:13-84
-117            android:enabled="true"
-117-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:37:13-35
-118            android:exported="false" />
-118-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:38:13-37
-119        <service
-119-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:39:9-43:72
-120            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-120-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:40:13-87
-121            android:enabled="true"
-121-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:41:13-35
-122            android:exported="false"
-122-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:42:13-37
-123            android:permission="android.permission.BIND_JOB_SERVICE" />
-123-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:43:13-69
-124
-125        <meta-data
-125-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\81dd5184cd65b6c87e7b9de6d58e373e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-126            android:name="com.google.android.gms.version"
-126-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\81dd5184cd65b6c87e7b9de6d58e373e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-127            android:value="@integer/google_play_services_version" />
-127-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\P1447\.gradle\caches\transforms-2\files-2.1\81dd5184cd65b6c87e7b9de6d58e373e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-128    </application>
+15-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:6:5-70
+15-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:6:22-68
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:7:5-79
+16-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:7:22-77
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->[com.facebook.flipper:flipper:0.37.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\43c8a7b2644749dbdcc223a0d2272409\flipper-0.37.0\AndroidManifest.xml:16:5-76
+17-->[com.facebook.flipper:flipper:0.37.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\43c8a7b2644749dbdcc223a0d2272409\flipper-0.37.0\AndroidManifest.xml:16:22-73
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[:react-native-firebase_auth] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
+18-->[:react-native-firebase_auth] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-65
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[:react-native-firebase_auth] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
+19-->[:react-native-firebase_auth] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-76
+20
+21    <uses-feature
+21-->[:react-native-camera] C:\Users\Sony\Desktop\sattim\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:11:5-13:36
+22        android:name="android.hardware.camera"
+22-->[:react-native-camera] C:\Users\Sony\Desktop\sattim\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:12:9-47
+23        android:required="false" />
+23-->[:react-native-camera] C:\Users\Sony\Desktop\sattim\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:13:9-33
+24    <uses-feature
+24-->[:react-native-camera] C:\Users\Sony\Desktop\sattim\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:14:5-16:36
+25        android:name="android.hardware.camera.autofocus"
+25-->[:react-native-camera] C:\Users\Sony\Desktop\sattim\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:15:9-57
+26        android:required="false" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+26-->[:react-native-camera] C:\Users\Sony\Desktop\sattim\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:16:9-33
+27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+27-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:26:5-82
+27-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:26:22-79
+28    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+28-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:26:5-110
+28-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:26:22-107
+29
+30    <application
+30-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:10:5-29:19
+31        android:name="com.kodluyoruzbitirme.MainApplication"
+31-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:11:7-38
+32        android:allowBackup="false"
+32-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:15:7-34
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.1.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\4c112ea1673c74046d79ce05bc8542bd\core-1.1.0\AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:13:7-41
+36        android:label="@string/app_name"
+36-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:12:7-39
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:14:7-52
+38        android:theme="@style/AppTheme"
+38-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:16:7-38
+39        android:usesCleartextTraffic="true" >
+39-->C:\Users\Sony\Desktop\sattim\android\app\src\debug\AndroidManifest.xml:9:18-53
+40        <activity
+40-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:17:7-27:18
+41            android:name="com.kodluyoruzbitirme.MainActivity"
+41-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:18:9-37
+42            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+42-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:20:9-86
+43            android:label="@string/app_name"
+43-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:19:9-41
+44            android:launchMode="singleTask"
+44-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:21:9-40
+45            android:windowSoftInputMode="adjustResize" >
+45-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:22:9-51
+46            <intent-filter>
+46-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:23:9-26:25
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:24:13-65
+47-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:24:21-62
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:25:13-73
+49-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:25:23-70
+50            </intent-filter>
+51        </activity>
+52        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+52-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:28:7-84
+52-->C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:28:17-81
+53
+54        <provider
+54-->[:react-native-image-crop-picker] C:\Users\Sony\Desktop\sattim\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-21:20
+55            android:name="androidx.core.content.FileProvider"
+55-->[:react-native-image-crop-picker] C:\Users\Sony\Desktop\sattim\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-62
+56            android:authorities="com.kodluyoruzbitirme.provider"
+56-->[:react-native-image-crop-picker] C:\Users\Sony\Desktop\sattim\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-60
+57            android:exported="false"
+57-->[:react-native-image-crop-picker] C:\Users\Sony\Desktop\sattim\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-37
+58            android:grantUriPermissions="true" >
+58-->[:react-native-image-crop-picker] C:\Users\Sony\Desktop\sattim\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-47
+59            <meta-data
+59-->[:react-native-image-crop-picker] C:\Users\Sony\Desktop\sattim\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-20:58
+60                android:name="android.support.FILE_PROVIDER_PATHS"
+60-->[:react-native-image-crop-picker] C:\Users\Sony\Desktop\sattim\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-67
+61                android:resource="@xml/provider_paths" />
+61-->[:react-native-image-crop-picker] C:\Users\Sony\Desktop\sattim\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-55
+62        </provider>
+63
+64        <activity
+64-->[:react-native-image-crop-picker] C:\Users\Sony\Desktop\sattim\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-25:72
+65            android:name="com.yalantis.ucrop.UCropActivity"
+65-->[:react-native-image-crop-picker] C:\Users\Sony\Desktop\sattim\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-60
+66            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+66-->[:react-native-image-crop-picker] C:\Users\Sony\Desktop\sattim\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-69
+67
+68        <provider
+68-->[:react-native-image-picker] C:\Users\Sony\Desktop\sattim\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-18:20
+69            android:name="com.imagepicker.FileProvider"
+69-->[:react-native-image-picker] C:\Users\Sony\Desktop\sattim\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-56
+70            android:authorities="com.kodluyoruzbitirme.provider"
+70-->[:react-native-image-picker] C:\Users\Sony\Desktop\sattim\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-60
+71            android:exported="false"
+71-->[:react-native-image-picker] C:\Users\Sony\Desktop\sattim\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
+72            android:grantUriPermissions="true" >
+72-->[:react-native-image-picker] C:\Users\Sony\Desktop\sattim\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-47
+73            <meta-data
+73-->[:react-native-image-crop-picker] C:\Users\Sony\Desktop\sattim\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-20:58
+74                android:name="android.support.FILE_PROVIDER_PATHS"
+74-->[:react-native-image-crop-picker] C:\Users\Sony\Desktop\sattim\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-67
+75                android:resource="@xml/provider_paths" />
+75-->[:react-native-image-crop-picker] C:\Users\Sony\Desktop\sattim\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-55
+76        </provider>
+77
+78        <activity
+78-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:24:9-31:50
+79            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+79-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:25:13-85
+80            android:excludeFromRecents="true"
+80-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:26:13-46
+81            android:exported="true"
+81-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:27:13-36
+82            android:launchMode="singleTask"
+82-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:28:13-44
+83            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+83-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:29:13-102
+84            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+84-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:30:13-72
+85
+86        <service
+86-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:33:9-39:19
+87            android:name="com.google.firebase.components.ComponentDiscoveryService"
+87-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:34:13-84
+88            android:directBootAware="true"
+88-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\d4b9b589fbec0f1a531d4db8a123bbb8\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+89            android:exported="false" >
+89-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:35:13-37
+90            <meta-data
+90-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:36:13-38:85
+91                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+91-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:37:17-109
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:38:17-82
+93            <meta-data
+93-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c39d31f25deaa0e83183fa6589a1d5e1\play-services-measurement-api-17.4.3\AndroidManifest.xml:30:13-32:85
+94                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+94-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c39d31f25deaa0e83183fa6589a1d5e1\play-services-measurement-api-17.4.3\AndroidManifest.xml:31:17-139
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c39d31f25deaa0e83183fa6589a1d5e1\play-services-measurement-api-17.4.3\AndroidManifest.xml:32:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:32:13-34:85
+97                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+97-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:33:17-96
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:34:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\e22b229244c6b494b646c1a7e0407183\firebase-installations-16.2.1\AndroidManifest.xml:17:13-19:85
+100                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+100-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\e22b229244c6b494b646c1a7e0407183\firebase-installations-16.2.1\AndroidManifest.xml:18:17-127
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\e22b229244c6b494b646c1a7e0407183\firebase-installations-16.2.1\AndroidManifest.xml:19:17-82
+102        </service>
+103
+104        <receiver
+104-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:37:9-44:20
+105            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+105-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:38:13-78
+106            android:exported="true"
+106-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:39:13-36
+107            android:permission="com.google.android.c2dm.permission.SEND" >
+107-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:40:13-73
+108            <intent-filter>
+108-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:41:13-43:29
+109                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+109-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:42:17-81
+109-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:42:25-78
+110            </intent-filter>
+111        </receiver>
+112
+113        <activity
+113-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\a9db7ca102a61e71756cc841696a0623\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+114            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+114-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\a9db7ca102a61e71756cc841696a0623\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+115            android:exported="false"
+115-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\a9db7ca102a61e71756cc841696a0623\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+116            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+116-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\a9db7ca102a61e71756cc841696a0623\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+117
+118        <provider
+118-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\d4b9b589fbec0f1a531d4db8a123bbb8\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+119            android:name="com.google.firebase.provider.FirebaseInitProvider"
+119-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\d4b9b589fbec0f1a531d4db8a123bbb8\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+120            android:authorities="com.kodluyoruzbitirme.firebaseinitprovider"
+120-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\d4b9b589fbec0f1a531d4db8a123bbb8\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+121            android:exported="false"
+121-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\d4b9b589fbec0f1a531d4db8a123bbb8\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+122            android:initOrder="100" />
+122-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\d4b9b589fbec0f1a531d4db8a123bbb8\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+123
+124        <receiver
+124-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:29:9-33:20
+125            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+125-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:30:13-85
+126            android:enabled="true"
+126-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:31:13-35
+127            android:exported="false" >
+127-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:32:13-37
+128        </receiver>
 129
-130</manifest>
+130        <service
+130-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:35:9-38:40
+131            android:name="com.google.android.gms.measurement.AppMeasurementService"
+131-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:36:13-84
+132            android:enabled="true"
+132-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:37:13-35
+133            android:exported="false" />
+133-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:38:13-37
+134        <service
+134-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:39:9-43:72
+135            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+135-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:40:13-87
+136            android:enabled="true"
+136-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:41:13-35
+137            android:exported="false"
+137-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:42:13-37
+138            android:permission="android.permission.BIND_JOB_SERVICE" />
+138-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c259453b91961695c439640928a300c9\play-services-measurement-17.4.3\AndroidManifest.xml:43:13-69
+139
+140        <meta-data
+140-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\39c872e98158fd0760be996890593374\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+141            android:name="com.google.android.gms.version"
+141-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\39c872e98158fd0760be996890593374\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+142            android:value="@integer/google_play_services_version" />
+142-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\39c872e98158fd0760be996890593374\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+143    </application>
+144
+145</manifest>

@@ -321,6 +321,9 @@ com/kodluyoruzbitirme/MainApplication$1.class
 com/kodluyoruzbitirme/MainApplication.class
 com/swmansion/reanimated/MapUtils.class
 com/swmansion/rnscreens/ScreenStackHeaderConfigViewManager.class
+com/yalantis/ucrop/UCropActivity$GestureTypes.class
+com/yalantis/ucrop/UCropFragment$GestureTypes.class
+com/yalantis/ucrop/view/OverlayView$FreestyleMode.class
 io/invertase/firebase/app/ReactNativeFirebaseAppPackage.class
 io/invertase/firebase/auth/ReactNativeFirebaseAuthPackage.class
 io/invertase/firebase/common/ReactNativeFirebaseModule.class

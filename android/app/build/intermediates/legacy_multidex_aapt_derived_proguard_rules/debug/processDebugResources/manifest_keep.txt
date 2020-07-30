@@ -1,4 +1,4 @@
-# Referenced at D:\Kodluyoruz\KodluyoruzBitirme\android\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:29
+# Referenced at C:\Users\Sony\Desktop\sattim\android\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:30
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
-# Referenced at D:\Kodluyoruz\KodluyoruzBitirme\android\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:29
+# Referenced at C:\Users\Sony\Desktop\sattim\android\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:30
 -keep class com.kodluyoruzbitirme.MainApplication { <init>(); }
