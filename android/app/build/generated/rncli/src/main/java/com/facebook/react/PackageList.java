@@ -15,12 +15,16 @@ import java.util.ArrayList;
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 // @react-native-community/cameraroll
 import com.reactnativecommunity.cameraroll.CameraRollPackage;
+// @react-native-community/image-editor
+import com.reactnativecommunity.imageeditor.ImageEditorPackage;
 // @react-native-community/masked-view
 import org.reactnative.maskedview.RNCMaskedViewPackage;
 // @react-native-firebase/app
 import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;
 // @react-native-firebase/auth
 import io.invertase.firebase.auth.ReactNativeFirebaseAuthPackage;
+// @react-native-firebase/storage
+import io.invertase.firebase.storage.ReactNativeFirebaseStoragePackage;
 // react-native-camera
 import org.reactnative.camera.RNCameraPackage;
 // react-native-gesture-handler
@@ -82,9 +86,11 @@ public class PackageList {
       new MainReactPackage(mConfig),
       new AsyncStoragePackage(),
       new CameraRollPackage(),
+      new ImageEditorPackage(),
       new RNCMaskedViewPackage(),
       new ReactNativeFirebaseAppPackage(),
       new ReactNativeFirebaseAuthPackage(),
+      new ReactNativeFirebaseStoragePackage(),
       new RNCameraPackage(),
       new RNGestureHandlerPackage(),
       new PickerPackage(),

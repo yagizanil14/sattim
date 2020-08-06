@@ -9,10 +9,12 @@ MERGED from [com.facebook.flipper:flipper:0.37.0] C:\Users\Sony\.gradle\caches\t
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.37.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\103c16abc3d486ee7b00d9ec6896ca12\flipper-network-plugin-0.37.0\AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.37.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\5d45a6eb0d488427e5f9fc31de272e01\flipper-fresco-plugin-0.37.0\AndroidManifest.xml:8:1-15:12
 MERGED from [:react-native-firebase_auth] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:react-native-firebase_storage] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-18:12
 MERGED from [:react-native-firebase_app] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\7a817eb799cd1b6afdff89f4e34d9ac8\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [:react-native-community_async-storage] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-community\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-community_cameraroll] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-community\cameraroll\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_image-editor] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-community\image-editor\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-community_masked-view] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-camera] C:\Users\Sony\Desktop\sattim\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:2:1-18:12
 MERGED from [:react-native-gesture-handler] C:\Users\Sony\Desktop\sattim\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
@@ -50,6 +52,7 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Sony\.gradle\cac
 MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:17:1-42:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\83c02564eb6e984085f282444d72b5f2\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\92561fc13baacaa6841ec5b15d5cdac2\play-services-vision-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\4aaaf74675d014fb371324717478eea2\firebase-storage-19.1.1\AndroidManifest.xml:15:1-39:12
 MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\69e0799bfbbb028b742eb30babcddeeb\jetified-play-services-vision-common-17.0.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\ffe361bee315b17d577ef3f5eafaedd0\firebase-auth-interop-19.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\f1117a5b651c4a2165f38a1174a1f078\jetified-play-services-clearcut-16.0.0\AndroidManifest.xml:17:1-24:12
@@ -133,6 +136,10 @@ MERGED from [com.facebook.flipper:flipper:0.37.0] C:\Users\Sony\.gradle\caches\t
 MERGED from [com.facebook.flipper:flipper:0.37.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\43c8a7b2644749dbdcc223a0d2272409\flipper-0.37.0\AndroidManifest.xml:15:5-67
 MERGED from [:react-native-firebase_auth] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
 MERGED from [:react-native-firebase_auth] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase_storage] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase_storage] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\4aaaf74675d014fb371324717478eea2\firebase-storage-19.1.1\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\4aaaf74675d014fb371324717478eea2\firebase-storage-19.1.1\AndroidManifest.xml:27:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c39d31f25deaa0e83183fa6589a1d5e1\play-services-measurement-api-17.4.3\AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c39d31f25deaa0e83183fa6589a1d5e1\play-services-measurement-api-17.4.3\AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:23:5-67
@@ -161,12 +168,16 @@ ADDED from C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:6:22-68
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:7:5-79
+MERGED from [:react-native-firebase_storage] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-80
+MERGED from [:react-native-firebase_storage] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-80
 	android:name
 		ADDED from C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:7:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:8:1-76
 MERGED from C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:8:1-76
 MERGED from C:\Users\Sony\Desktop\sattim\android\app\src\main\AndroidManifest.xml:8:1-76
+MERGED from [:react-native-firebase_storage] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-81
+MERGED from [:react-native-firebase_storage] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-81
 MERGED from [:react-native-image-crop-picker] C:\Users\Sony\Desktop\sattim\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
 MERGED from [:react-native-image-crop-picker] C:\Users\Sony\Desktop\sattim\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
 	android:name
@@ -189,6 +200,8 @@ MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Sony\.gradle\cac
 MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\92561fc13baacaa6841ec5b15d5cdac2\play-services-vision-17.0.2\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\92561fc13baacaa6841ec5b15d5cdac2\play-services-vision-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\4aaaf74675d014fb371324717478eea2\firebase-storage-19.1.1\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\4aaaf74675d014fb371324717478eea2\firebase-storage-19.1.1\AndroidManifest.xml:29:5-37:19
 MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\69e0799bfbbb028b742eb30babcddeeb\jetified-play-services-vision-common-17.0.2\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\69e0799bfbbb028b742eb30babcddeeb\jetified-play-services-vision-common-17.0.2\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\ffe361bee315b17d577ef3f5eafaedd0\firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
@@ -301,6 +314,8 @@ MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.37.0] C:\Users\Sony\.g
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.37.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\5d45a6eb0d488427e5f9fc31de272e01\flipper-fresco-plugin-0.37.0\AndroidManifest.xml:11:5-13:41
 MERGED from [:react-native-firebase_auth] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-firebase_auth] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_storage] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_storage] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-firebase_app] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-firebase_app] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\7a817eb799cd1b6afdff89f4e34d9ac8\multidex-2.0.0\AndroidManifest.xml:20:5-43
@@ -309,6 +324,8 @@ MERGED from [:react-native-community_async-storage] C:\Users\Sony\Desktop\sattim
 MERGED from [:react-native-community_async-storage] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-community\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_cameraroll] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-community\cameraroll\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_cameraroll] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-community\cameraroll\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_image-editor] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-community\image-editor\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_image-editor] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-community\image-editor\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-camera] C:\Users\Sony\Desktop\sattim\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:5:5-7:41
@@ -383,6 +400,8 @@ MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Sony\.gradle\caches\
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\83c02564eb6e984085f282444d72b5f2\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\92561fc13baacaa6841ec5b15d5cdac2\play-services-vision-17.0.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\92561fc13baacaa6841ec5b15d5cdac2\play-services-vision-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\4aaaf74675d014fb371324717478eea2\firebase-storage-19.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\4aaaf74675d014fb371324717478eea2\firebase-storage-19.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\69e0799bfbbb028b742eb30babcddeeb\jetified-play-services-vision-common-17.0.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\69e0799bfbbb028b742eb30babcddeeb\jetified-play-services-vision-common-17.0.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\ffe361bee315b17d577ef3f5eafaedd0\firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
@@ -515,6 +534,8 @@ ADDED from [com.facebook.flipper:flipper:0.37.0] C:\Users\Sony\.gradle\caches\tr
 		ADDED from [com.facebook.flipper:flipper:0.37.0] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\43c8a7b2644749dbdcc223a0d2272409\flipper-0.37.0\AndroidManifest.xml:16:22-73
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [:react-native-firebase_auth] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
+MERGED from [:react-native-firebase_storage] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
+MERGED from [:react-native-firebase_storage] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
 MERGED from [com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c39d31f25deaa0e83183fa6589a1d5e1\play-services-measurement-api-17.4.3\AndroidManifest.xml:24:5-68
 MERGED from [com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c39d31f25deaa0e83183fa6589a1d5e1\play-services-measurement-api-17.4.3\AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:24:5-68
@@ -529,6 +550,10 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.3] C:
 		ADDED from [:react-native-firebase_auth] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-65
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [:react-native-firebase_auth] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
+MERGED from [:react-native-firebase_storage] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
+MERGED from [:react-native-firebase_storage] C:\Users\Sony\Desktop\sattim\node_modules\@react-native-firebase\storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\4aaaf74675d014fb371324717478eea2\firebase-storage-19.1.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\4aaaf74675d014fb371324717478eea2\firebase-storage-19.1.1\AndroidManifest.xml:26:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c39d31f25deaa0e83183fa6589a1d5e1\play-services-measurement-api-17.4.3\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c39d31f25deaa0e83183fa6589a1d5e1\play-services-measurement-api-17.4.3\AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:22:5-79
@@ -605,6 +630,8 @@ ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Sony\.gradle\cach
 		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:25:13-85
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\4aaaf74675d014fb371324717478eea2\firebase-storage-19.1.1\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\4aaaf74675d014fb371324717478eea2\firebase-storage-19.1.1\AndroidManifest.xml:30:9-36:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c39d31f25deaa0e83183fa6589a1d5e1\play-services-measurement-api-17.4.3\AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c39d31f25deaa0e83183fa6589a1d5e1\play-services-measurement-api-17.4.3\AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\a02ab83e9bdc5000ec45024b650fab50\firebase-iid-20.1.5\AndroidManifest.xml:29:9-35:19
@@ -627,6 +654,12 @@ ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Sony\.gradle\cach
 		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:38:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\18c6f176f2dca4e39955fca37474b399\firebase-auth-19.3.1\AndroidManifest.xml:37:17-109
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\4aaaf74675d014fb371324717478eea2\firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\4aaaf74675d014fb371324717478eea2\firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\4aaaf74675d014fb371324717478eea2\firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
 meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
 ADDED from [com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Sony\.gradle\caches\transforms-2\files-2.1\c39d31f25deaa0e83183fa6589a1d5e1\play-services-measurement-api-17.4.3\AndroidManifest.xml:30:13-32:85
 	android:value

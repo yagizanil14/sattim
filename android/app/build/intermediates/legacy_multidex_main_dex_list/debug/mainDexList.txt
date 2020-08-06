@@ -316,6 +316,7 @@ com/google/firebase/auth/ActionCodeResult$ActionDataKey.class
 com/google/firebase/auth/ActionCodeResult$Operation.class
 com/google/firebase/platforminfo/AutoValue_LibraryVersion.class
 com/google/firebase/platforminfo/LibraryVersion.class
+com/google/firebase/storage/StorageException$ErrorCode.class
 com/kodluyoruzbitirme/BuildConfig.class
 com/kodluyoruzbitirme/MainApplication$1.class
 com/kodluyoruzbitirme/MainApplication.class
@@ -328,6 +329,7 @@ io/invertase/firebase/app/ReactNativeFirebaseAppPackage.class
 io/invertase/firebase/auth/ReactNativeFirebaseAuthPackage.class
 io/invertase/firebase/common/ReactNativeFirebaseModule.class
 io/invertase/firebase/interfaces/ContextProvider.class
+io/invertase/firebase/storage/ReactNativeFirebaseStoragePackage.class
 javax/annotation/CheckForNull.class
 javax/annotation/CheckForSigned.class
 javax/annotation/CheckReturnValue.class

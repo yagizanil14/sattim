@@ -2,37 +2,66 @@ import React, { useState } from 'react'
 import { SafeAreaView, View, Text, TouchableOpacity, FlatList } from 'react-native'
 import ImagePicker from 'react-native-image-crop-picker';
 import { InputProduct, RenderImage } from '../../component'
+import ImageEditor from "@react-native-community/image-editor";
+import storage from '@react-native-firebase/storage';
+import AsyncStorage from '@react-native-community/async-storage';
 
 const AddProductInfo = props => {
     const [images, setImages] = useState([])
     const [productName, setProductName] = useState("")
     const [proInf, setProInf] = useState("")
     const [getProInf, setGetProInf] = useState({})
+    const [resImg, setResImg] = useState([])
 
     const proName = (text) => setProductName(text)
     const proInfo = (text) => setProInf(text)
     const setInf = () => {
-        setGetProInf({
-            itemName:productName,
-            itemInfo:proInf,
-            itemImg:[...images]
-        })
+        resizeImg()
+        // setGetProInf({
+        //     itemName: productName,
+        //     itemInfo: proInf,
+        //     itemImg: [...resImg]
+        // })
     }
     const opanPick = () => {
         ImagePicker.openPicker({
-            includeBase64: true,
-            multiple: true
+            multiple: true,
+            maxFiles: 6,
+            width:256,
+            height:256
         }).then(images => {
-            
+            const opanImg = []
+            images.map((e)=>{
+                cropData = {
+                    offset: {x: 0, y: 0},
+                    size: {width: e.width, height: e.height},
+                    displaySize: {width: 512, height: 512},
+                    resizeMode: 'contain'
+                  };
+                ImageEditor.cropImage(e.path, cropData).then(url => {
+                    opanImg.push(url)
+                    console.log("Cropped image uri", url);
+                  })
+            })
             setImages(images)
+            setResImg(opanImg)
         });
     }
     const renderImg = (item) => {
-        return(
-        <View>
-            <RenderImage imgUri={item} />
-        </View>
+        return (
+            <View>
+                <RenderImage imgUri={item} />
+            </View>
         )
+    }
+    const resizeImg = async() => {
+      const deneme = await resImg.map(async(e,index) => {
+        const value = await AsyncStorage.getItem('@USER_ID')
+            {console.log(e)}
+            const reference = storage().ref(`${value}/${productName}/${index}`);
+            const pathToFile = `${e}`;
+            await reference.putFile(pathToFile);
+        })
     }
     return (
         <SafeAreaView>

@@ -3,7 +3,7 @@ import {
   View,
   TouchableOpacity,
   Image,
-  Text,
+
   ImageBackground,
   Button,
   PermissionsAndroid,
@@ -11,11 +11,10 @@ import {
   FlatList
 } from 'react-native';
 
-// import images from 'res/images';
 import { CameraShutterButton } from '../../component';
 import { RNCamera } from 'react-native-camera';
 import styles from '../../styles'
-import CameraRoll, { PhotoIdentifier } from "@react-native-community/cameraroll";
+import CameraRoll from "@react-native-community/cameraroll";
 
 const AddProductsQuickly = props => {
   const camera = useRef(null)
