@@ -26,6 +26,19 @@ const styles={
           },
     }),
 
+    MainStyle:StyleSheet.create({
+      titleStyle:{
+        alignSelf:"center",
+        fontSize:40,
+        color:"#424242",
+        fontWeight:"bold",
+        marginVertical:25
+      },
+      FastProduct:{
+        alignSelf:"center",
+      }
+    }),
+
     AddProductsQuicklyStyles:StyleSheet.create({
         container: {
             height:Dimensions.get("window").height * 1,
@@ -58,6 +71,38 @@ const styles={
             bottom: 20,
             width: Dimensions.get("window").width * 1
           }
+    }),
+
+    components:StyleSheet.create({
+
+      buttonProstyle:{
+        width:Dimensions.get("window").width *0.5,
+        padding:3,
+        margin:8,
+        borderRadius: 5,
+        alignSelf: 'center',
+        alignItems:"center",
+        borderBottomWidth:2,
+        borderColor:"#616161",
+      },
+
+      buttonProTextstyle:{
+        color:"#424242",
+        fontSize:15,
+        fontWeight:"300"
+      },
+
+      inputProstyle:{
+        width:Dimensions.get("window").width * 0.95,
+        color: 'white',
+        margin: 5,
+        marginVertical: 5,
+        borderRadius: 5,
+        alignSelf:"center",
+        borderRadius:15,
+        padding: 10,
+        backgroundColor: '#bdbdbd',
+      }
     })
 }
 

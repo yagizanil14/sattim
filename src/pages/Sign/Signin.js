@@ -1,96 +1,93 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import {
   SafeAreaView,
-  Text,
-  TextInput,
   View,
-  TouchableOpacity,
   Alert,
+  Text,
+  Image,
 } from 'react-native';
-import auth from '@react-native-firebase/auth';
 import AsyncStorage from '@react-native-community/async-storage';
+import Axios from 'axios'
+import { InputProduct, ButtonProduct } from '../../component'
+import styles from '../../styles'
 
 const Signin = (props) => {
   const [usermail, setUserMail] = useState('');
   const [userpass, setPassword] = useState('');
 
-  setMail = (text) => setUserMail(text);
+  setMails = (text) => setUserMail(text);
 
-  setPass = (text) => setPassword(text);
+  setPasss = (text) => setPassword(text);
 
   const loginUser = async () => {
-    if(usermail.length && userpass.length > 6){
+    if (usermail.length && userpass.length > 6) {
       try {
-      await auth().signInWithEmailAndPassword(usermail, userpass);
-      props.navigation.navigate('DrawerMenu');
-      AsyncStorage.setItem('@USER_ID', auth().currentUser.uid);
-    } catch (error) {
-      console.log(error);
-      Alert.alert('MyApp', 'Bir hata oluştu.');
-    }
-    }else Alert.alert('MyApp', 'Şifreniz yada Email adresiniz 6 karakterden az olamaz')
+        const userSignn = await Axios.get("https://sattimapi.azurewebsites.net/api/User/Login", {
+          headers: "Content-Type: application/json",
+          "userEmail": usermail,
+          "userPassword": userpass,
+        })
+        console.log(userSignn)
+        props.navigation.navigate('DrawerMenu');
+        AsyncStorage.setItem('@USER_ID', "123123");
+      } catch (error) {
+        console.log(error);
+      }
+    } else Alert.alert('MyApp', 'Şifreniz yada Email adresiniz 6 karakterden az olamaz')
   };
 
+  const navigateSignUp = () => {
+    props.navigation.navigate("Signup")
+  }
+
+  const naviDrawer = () => {
+    props.navigation.navigate("DrawerMenu")
+  }
+
   return (
-    <SafeAreaView style={{flex: 1}}>
-      <View style={{flex: 1, justifyContent: 'center'}}>
-        <TextInput
-          style={{
-            color: 'white',
-            margin: 5,
-            marginVertical: 10,
-            borderRadius: 5,
-            padding: 10,
-            backgroundColor: '#bdbdbd',
-          }}
-          placeholder="E-posta adresinizi giriniz.."
-          placeholderTextColor="white"
-          onChangeText={setMail}
-          keyboardType="email-address"
-          autoCapitalize="none"
+    <SafeAreaView style={{ flex: 1, backgroundColor:"#eeeeee" }}>
+      <View style={{ flex: 1, justifyContent: 'center' }}>
+
+        <View>
+          <Text style={styles.MainStyle.titleStyle}>Saaattım!</Text>
+        </View>
+
+        <InputProduct
+          PlaceHolder="E-posta adresinizi giriniz.."
+          PlaceHolderTextColor="white"
+          OnChangeText={setMails}
+          KeyboardType="email-address"
+          AutoCapitalize="words"
+        />
+        <InputProduct
+          PlaceHolder="Şifrenizi giriniz.."
+          PlaceHolderTextColor="white"
+          OnChangeText={setPasss}
+          KeyboardType="default"
+          AutoCapitalize="words"
+          SecureTextEntry={true}
         />
 
-        <TextInput
-          style={{
-            color: 'white',
-            margin: 5,
-            marginVertical: 10,
-            borderRadius: 5,
-            padding: 10,
-            backgroundColor: '#bdbdbd',
-          }}
-          placeholder="Şifrenizi giriniz.."
-          placeholderTextColor="white"
-          onChangeText={setPass}
-          secureTextEntry
-        />
+        <View style={{ marginTop: 20 }}>
+          <ButtonProduct
+            buttonOnpress={loginUser}
+            touchText="Giriş Yap"
+          />
 
-        <View style={{marginTop: 20}}>
-          <TouchableOpacity
-            style={{
-              padding: 10,
-              margin: 5,
-              borderRadius: 5,
-              alignItems: 'center',
-            }}
-            onPress={loginUser}>
-            <Text>Giriş Yap</Text>
-          </TouchableOpacity>
+          <ButtonProduct
+            buttonOnpress={naviDrawer}
+            touchText="Drawer Menu"
+          />
 
-          <TouchableOpacity
-            style={{
-              padding: 10,
-              margin: 5,
-              borderRadius: 5,
-              alignItems: 'center',
-            }}
-            onPress={() => props.navigation.navigate('Signup')}>
-            <Text>Kayıt Ol</Text>
-          </TouchableOpacity>
+          <ButtonProduct
+            buttonOnpress={navigateSignUp}
+            touchText="Kayıt Ol"
+          />
+         
         </View>
       </View>
     </SafeAreaView>
   );
 };
 
-export {Signin};
+export { Signin };
