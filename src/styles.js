@@ -6,7 +6,6 @@ const styles={
             flexDirection: 'row',
             justifyContent: 'center',
             alignItems: 'center',
-            
           },
           outerCircle: {
             width: 75,
@@ -34,8 +33,75 @@ const styles={
         fontWeight:"bold",
         marginVertical:25
       },
+      FastProductView:{
+        position:"absolute",
+        width:Dimensions.get("window").width * 0.5,
+        height:Dimensions.get("window").height * 0.1,
+        alignSelf:"center",
+        backgroundColor:"#bdbdbd",
+        marginTop:Dimensions.get("window").height * 0.9,
+        borderRadius:30
+      },
+      FastProductText:{
+        fontSize:16,
+        fontWeight:"bold",
+        color:"#212121"
+      },
       FastProduct:{
         alignSelf:"center",
+      },
+      flatListStyles:{
+        alignSelf:"center"
+      },
+      FastProductTitleView:{
+        width:Dimensions.get("window").width * 0.95,
+        height:Dimensions.get("window").height * 0.07,
+        alignSelf:"center",
+        backgroundColor:"#bdbdbd",
+        borderBottomRightRadius:25,
+        borderBottomLeftRadius:25,
+      },
+      FastProductTitleText:{
+        fontSize:25,
+        fontWeight:"bold",
+        alignSelf:"center",
+        color:"#212121",
+        fontStyle:"italic"
+      },
+      itemPagesTitleText:{
+        fontSize:23,
+        fontWeight:"bold",
+        alignSelf:"center",
+        color:"#212121",
+        fontStyle:"italic"
+      },
+
+      itemPagesExplainText:{
+        fontSize:17,
+        fontWeight:"300",
+        color:"#212121",
+        fontStyle:"italic"
+      },
+
+      itemPagesDateText:{
+        fontSize:17,
+        fontWeight:"300",
+        color:"#212121",
+        fontStyle:"italic"
+      },
+
+      itemPagesCategoryText:{
+        fontSize:17,
+        fontWeight:"300",
+        color:"#212121",
+        fontStyle:"italic"
+      },
+
+      itemPagesPriceText:{
+        fontSize:17,
+        fontWeight:"bold",
+        color:"#ff8f00",
+        fontStyle:"italic"
       }
     }),
 
@@ -102,6 +168,65 @@ const styles={
         borderRadius:15,
         padding: 10,
         backgroundColor: '#bdbdbd',
+      },
+
+      itemCardImgStyle:{
+        width:Dimensions.get("window").width *0.35,
+        height:Dimensions.get("window").width * 0.3,
+        alignSelf:"center",
+      },
+      
+      itemCardImgViewStyle:{
+        borderWidth:1,
+        borderColor:"gray",
+        borderRadius:15, 
+        margin:10,
+        padding:15,
+        width:170,
+        height:250
+      },
+      itemCardTitleStyle:{
+        fontSize:16,
+        fontWeight:"bold",
+        color:"#424242",
+        alignSelf:"center"
+      },
+      itemCardPriceViewStyle:{
+        marginVertical:10,
+        flexDirection:"row"
+      },
+      itemCardPriceTextStyle:{
+        color:"#424242",
+        fontSize:12,
+        alignSelf:"center",
+        fontWeight:"bold"
+      },
+      itemCardPriceStyle:{
+        color:"#ff8f00",
+        fontSize:20,
+        fontWeight:"bold"
+      },
+      itemCardTouchStyle:{
+        width:Dimensions.get("window").width * 0.35,
+        height:Dimensions.get("window").height * 0.05,
+        backgroundColor:"#ff8f00",
+        alignSelf:"center",
+        borderRadius:30,
+        flexDirection:"row",
+        justifyContent:"center"
+      },
+      itemCardTouchTextStyle:{
+        alignSelf:"center",
+        fontSize:15,
+        fontWeight:"300",
+      },
+      renderItemImg:{
+        width:Dimensions.get("window").width * 0.4,
+        height:Dimensions.get("window").height * 0.4,
+        marginHorizontal:10,
+        resizeMode:"stretch",
+        borderRadius:15,
+        marginTop:20
       }
     })
 }

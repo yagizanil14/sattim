@@ -8,7 +8,14 @@
         "productFirstDate": "2020-08-10T06:46:23.369Z",
         "productLasttDate": "2020-08-10T06:46:23.369Z",
         "isSell": true,
-        "userId": 0
+        "userId": 0,
+        "ımages":[
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"},
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"},
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"},
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"},
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"}
+        ]
     },
     {
         "productId": 14,
@@ -19,6 +26,85 @@
         "productFirstDate": "2020-09-10T06:46:23.369Z",
         "productLasttDate": "2020-09-10T06:46:23.369Z",
         "isSell": true,
-        "userId": 0
+        "userId": 1,
+        "ımages":[
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"},
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"},
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"},
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"},
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"}
+        ]
+    },
+    {
+        "productId": 15,
+        "productTitle": "Bilgisayar",
+        "productExplain": "Güzel Bilgisayar",
+        "productCategory": "Elektronik",
+        "productPrice": 1000,
+        "productFirstDate": "2020-11-10T06:46:23.369Z",
+        "productLasttDate": "2020-12-10T06:46:23.369Z",
+        "isSell": true,
+        "userId": 3,
+        "ımages":[
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"},
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"},
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"},
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"},
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"}
+        ]
+    },
+    {
+        "productId": 16,
+        "productTitle": "oyuncak",
+        "productExplain": "Güzel oyuncak",
+        "productCategory": "Saat",
+        "productPrice": 20,
+        "productFirstDate": "2020-11-10T06:46:23.369Z",
+        "productLasttDate": "2020-13-10T06:46:23.369Z",
+        "isSell": true,
+        "userId": 4,
+        "ımages":[
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"},
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"},
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"},
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"},
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"}
+        ]
+    },
+    {
+        "productId": 17,
+        "productTitle": "Bilgisayar",
+        "productExplain": "Güzel Bilgisayar",
+        "productCategory": "Elektronik",
+        "productPrice": 1000,
+        "productFirstDate": "2020-11-10T06:46:23.369Z",
+        "productLasttDate": "2020-12-10T06:46:23.369Z",
+        "isSell": true,
+        "userId": 3,
+        "ımages":[
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"},
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"},
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"},
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"},
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"}
+        ]
+    },
+    {
+        "productId": 18,
+        "productTitle": "oyuncak",
+        "productExplain": "Güzel oyuncak",
+        "productCategory": "Saat",
+        "productPrice": 20,
+        "productFirstDate": "2020-11-10T06:46:23.369Z",
+        "productLasttDate": "2020-13-10T06:46:23.369Z",
+        "isSell": true,
+        "userId": 4,
+        "ımages":[
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"},
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"},
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"},
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"},
+            {"IMG0":"https://www.haberler.com/amp/haber/2019/11/17/karsinizda-en-cok-satan-telefon-markalari-12628057_amp.webp"}
+        ]
     }
 ]

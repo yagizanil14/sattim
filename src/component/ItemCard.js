@@ -1,22 +1,27 @@
 import React from 'react'
-import {Text, View, TouchableOpacity} from 'react-native'
+import { Text, View, TouchableOpacity, Image } from 'react-native'
+import styles from '../styles'
 
 const ItemCard = props => {
     const Item = props.Items.item
-    return(
+    return (
         <View>
-            {console.log(props.getOffer)}
-            <View style={{borderWidth:1,borderColor:"gray",borderRadius:15, margin:10,padding:15,width:170,height:150}}>
-            <Text>{Item.productTitle}</Text>
-            <Text>{Item.productExplain}</Text>
-            <Text>{Item.productPrice}</Text>
-            <Text>{Item.productLasttDate}</Text>
-            <TouchableOpacity onPress={()=>{props.getOffer(Item)}}>
-                <Text>Teklif Ver</Text>
-            </TouchableOpacity>
-           
+            {console.log(Item.ımages[0].IMG0)}
+            <View style={styles.components.itemCardImgViewStyle}>
+                <Image style={styles.components.itemCardImgStyle} source={{ uri: Item.ımages[0].IMG0 }} />
+                <Text style={styles.components.itemCardTitleStyle}>{Item.productTitle}</Text>
+                <View style={styles.components.itemCardPriceViewStyle}>
+                    <Text style={styles.components.itemCardPriceTextStyle}>Son Teklif: </Text>
+                    <Text style={styles.components.itemCardPriceStyle}>{Item.productPrice}</Text>
+                </View>
+                {/* <Text>{Item.productExplain}</Text> */}
+                {/* <Text>{Item.productLasttDate}</Text> */}
+                <TouchableOpacity style={styles.components.itemCardTouchStyle} onPress={() => { props.getOffer(Item) }}>
+                    <Text style={styles.components.itemCardTouchTextStyle}>Teklif Ver</Text>
+                </TouchableOpacity>
+
             </View>
         </View>
     )
 }
-export {ItemCard}
+export { ItemCard }
