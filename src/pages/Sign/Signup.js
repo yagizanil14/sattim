@@ -8,6 +8,8 @@ import {
 import Axios from 'axios'
 import { InputProduct, ButtonProduct } from '../../component'
 import styles from '../../styles'
+import auth from '@react-native-firebase/auth'
+import database from '@react-native-firebase/database'
 
 const Signup = (props) => {
   const [usermail, setUserMail] = useState('');
@@ -30,23 +32,44 @@ const Signup = (props) => {
     if (usermail.length && userpass.length > 6) {
       if (userpass === userpassRep) {
         try {
-          const authUser = await Axios.post("https://sattimapi.azurewebsites.net/api/User", {
-            "userEmail": usermail,
-            "userPassword": userpass,
-            "userName": userName,
-            "userSurname": userSurname,
-            "userImg": "none",
-            "userBank": 100
-          })
-          console.log(authUser.config.status)
-          Alert.alert("Başarılı!!", "Hesabınız Başarı İle Oluşturuldu")
-          props.navigation.goBack()
-        } catch (e) {
-          console.log(e)
+          await auth().createUserWithEmailAndPassword(usermail, userpass);
+          database()
+            .ref(`users/${auth().currentUser.uid}`)
+            .set({
+              name: userName,
+              surname: userSurname,
+              userCoin: 100
+            })
+            .then(() => console.log('Data set.'));
+          Alert.alert('MyApp', 'Hesap oluşturuldu!');
+          props.navigation.goBack();
+        } catch (error) {
+          console.log(error)
         }
-
       } else Alert.alert('MyApp', 'Şifreler Uyuşmuyor');
     } else Alert.alert('MyApp', 'Şifreniz yada Email adresiniz 6 karakterden az olamaz')
+
+
+    // if (usermail.length && userpass.length > 6) {
+    //   if (userpass === userpassRep) {
+    //     try {
+    //       const authUser = await Axios.post("https://sattimapi.azurewebsites.net/api/User", {
+    //         "userEmail": usermail,
+    //         "userPassword": userpass,
+    //         "userName": userName,
+    //         "userSurname": userSurname,
+    //         "userImg": null,
+    //         "userBank": 100
+    //       })
+    //       console.log(authUser.config.status)
+    //       Alert.alert("Başarılı!!", "Hesabınız Başarı İle Oluşturuldu")
+    //       props.navigation.goBack()
+    //     } catch (e) {
+    //       console.log(e)
+    //     }
+
+    //   } else Alert.alert('MyApp', 'Şifreler Uyuşmuyor');
+    // } else Alert.alert('MyApp', 'Şifreniz yada Email adresiniz 6 karakterden az olamaz')
 
   };
 
@@ -57,7 +80,7 @@ const Signup = (props) => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <View style={{ flex: 1, justifyContent: 'center' }}>
-      <View>
+        <View>
           <Text style={styles.MainStyle.titleStyle}>Saaattım!</Text>
         </View>
 

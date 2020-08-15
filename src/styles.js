@@ -76,6 +76,16 @@ const styles={
         fontStyle:"italic"
       },
 
+      itemPagesCardView:{
+        width:Dimensions.get("window").width * 0.7,
+        height:Dimensions.get("window").height * 0.25,
+        alignSelf:"center",
+        borderWidth:2,
+        borderColor:"#424242",
+        borderRadius:35,
+        alignItems:"center"
+      },
+
       itemPagesExplainText:{
         fontSize:17,
         fontWeight:"300",
@@ -172,7 +182,7 @@ const styles={
 
       itemCardImgStyle:{
         width:Dimensions.get("window").width *0.35,
-        height:Dimensions.get("window").width * 0.3,
+        height:Dimensions.get("window").width * 0.25,
         alignSelf:"center",
       },
       
@@ -192,7 +202,7 @@ const styles={
         alignSelf:"center"
       },
       itemCardPriceViewStyle:{
-        marginVertical:10,
+        marginVertical:4,
         flexDirection:"row"
       },
       itemCardPriceTextStyle:{
@@ -214,6 +224,21 @@ const styles={
         borderRadius:30,
         flexDirection:"row",
         justifyContent:"center"
+      },
+      itemCardTouch:{
+        width:Dimensions.get("window").width * 0.95,
+        height:Dimensions.get("window").height * 0.06,
+        alignSelf:"center",
+        borderRadius:15,
+        borderColor:"#f57c00",
+        borderWidth:2,
+        backgroundColor:"#ff9800",
+      },
+      itemCardTouchText:{
+        alignSelf:"center",
+        fontSize:25,
+        fontWeight:"bold",
+        color:"#424242"
       },
       itemCardTouchTextStyle:{
         alignSelf:"center",

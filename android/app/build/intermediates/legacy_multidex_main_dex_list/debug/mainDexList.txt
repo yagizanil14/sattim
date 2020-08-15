@@ -314,6 +314,15 @@ com/google/auto/value/extension/memoized/Memoized.class
 com/google/firebase/annotations/PublicApi.class
 com/google/firebase/auth/ActionCodeResult$ActionDataKey.class
 com/google/firebase/auth/ActionCodeResult$Operation.class
+com/google/firebase/database/ChildEventListener.class
+com/google/firebase/database/Exclude.class
+com/google/firebase/database/IgnoreExtraProperties.class
+com/google/firebase/database/PropertyName.class
+com/google/firebase/database/ThrowOnExtraProperties.class
+com/google/firebase/database/Transaction$Handler.class
+com/google/firebase/database/ValueEventListener.class
+com/google/firebase/database/annotations/NotNull.class
+com/google/firebase/database/annotations/Nullable.class
 com/google/firebase/platforminfo/AutoValue_LibraryVersion.class
 com/google/firebase/platforminfo/LibraryVersion.class
 com/google/firebase/storage/StorageException$ErrorCode.class
@@ -328,6 +337,11 @@ com/yalantis/ucrop/view/OverlayView$FreestyleMode.class
 io/invertase/firebase/app/ReactNativeFirebaseAppPackage.class
 io/invertase/firebase/auth/ReactNativeFirebaseAuthPackage.class
 io/invertase/firebase/common/ReactNativeFirebaseModule.class
+io/invertase/firebase/database/ReactNativeFirebaseDatabaseQueryModule$1.class
+io/invertase/firebase/database/ReactNativeFirebaseDatabaseQueryModule$2.class
+io/invertase/firebase/database/ReactNativeFirebaseDatabaseQueryModule$3.class
+io/invertase/firebase/database/ReactNativeFirebaseDatabaseQueryModule$4.class
+io/invertase/firebase/database/ReactNativeFirebaseDatabaseTransactionModule$1.class
 io/invertase/firebase/interfaces/ContextProvider.class
 io/invertase/firebase/storage/ReactNativeFirebaseStoragePackage.class
 javax/annotation/CheckForNull.class
